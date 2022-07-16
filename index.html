@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodhouse</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favi.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- navbar section -->
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars" style="color: #5CDB95;"></div>
+
+        <a href="#" class="logo"> <span>food</span><span style="color:#5CDB95;">house </span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#aboutus">about us</a>
+            <a href="#offers">offers</a>
+            <a href="#ourfoods">our foods</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+            <a><button class="rounded-button" type="button">
+                    <i class="uil uil-moon dark-icon" id="moon"></i>
+                </button></a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="far fa-user" style="color:#5CDB95 ;"></i>
+
+        </div>
+
+    </header>
+
+
+    <!-- form-section -->
+    <div class="login-form-container">
+
+        <span id="close-login-form" class="fas fa-times"></span>
+
+        <form action="">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p> forget your password <a href="#">click here</a> </p>
+            <input type="submit" value="login" class="btn">
+            <p>or login with</p>
+            <div class="buttons">
+                <a href="#" class="btn"> google </a>
+                <a href="#" class="btn"> facebook </a>
+            </div>
+            <p> don't have an account <a href="#">create one</a> </p>
+        </form>
+
+    </div>
+
+
+
+    <!-- home-section -->
+    <section class="home" id="home">
+
+        <div class="image">
+            <img src="images/food-13629.png" alt="">
+        </div>
+
+        <div class="content">
+            <span>fresh and delicious</span>
+            <h3>Do you wanna eat something?</h3>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+    </section>
+
+
+    <!-- deal-section -->
+    <section class="deal reveal" id="deal">
+
+        <div class="content">
+
+            <h3 class="title">Thank God I'm a Student</h3>
+            <p>Leave your laptops and bring your STUDENT IDS for a special offer..</p>
+            <h1>Rs 599</h1>
+            <h2>Only for lunch on 25 July 2022.</h2>
+
+            <div class="count-down">
+                <div class="box">
+                    <h3 id="day">00</h3>
+                    <span>day</span>
+                </div>
+                <div class="box">
+                    <h3 id="hour">00</h3>
+                    <span>hour</span>
+                </div>
+                <div class="box">
+                    <h3 id="minute">00</h3>
+                    <span>minute</span>
+                </div>
+                <div class="box">
+                    <h3 id="second">00</h3>
+                    <span>second</span>
+                </div>
+            </div>
+
+            <a href="#" class="btn">Notify Me</a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- About-section -->
+    <section class="about reveal" id="aboutus">
+
+        <h1 class="heading"> <span> about </span> us </h1>
+
+        <div class="row">
+
+            <div class="video-container">
+                <video src="images/pexels-tima-miroshnichenko-7033923.mp4" loop autoplay muted></video>
+                <h3>best selling Restaurant</h3>
+            </div>
+
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>Quality of Service, Food, Ambiance and Value of Money are the primary elements for choosing a
+                    restaurant. Foodhouse is one of the most exquisite fine-dinning restaurant in twin cities with a
+                    captivating view of Murree Hills, perfect ambiance and scrumptious food. Our team is always looking
+                    forward to provide you exceptional services and win your hearts out.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- features-section -->
+    <div class="features reveal">
+        <div class="feature">
+            <img src="images/ship.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="images/qf.png" alt="">
+            <span class="featureTitle">Quality Meal</span>
+            <span class="featureDesc">No question on quality of foods served.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="images/giftcard.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="images/contact.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+
+
+    <!-- offer-section -->
+    <h1 class="heading"> <span>Exciting</span> offers </h1>
+
+    <section class="banner-container reveal" id="offers">
+
+        <div class="banner">
+            <img src="images/sp1.jpg" alt="">
+            <div class="content">
+                <h3>special offer</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/sp2.jpg" alt="">
+            <div class="content">
+                <h3>limited offer</h3>
+                <p>upto 50% off</p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- featured food -->
+    <section class="featured reveal" id="ourfoods">
+
+        <h1 class="heading"> <span>What</span> we serve </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/noodles.jpg" alt="">
+                    <div class="content">
+                        <h3>Noodles</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">Rs 99/-</div>
+                        <a href="#" class="btn co">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/121004817-chicken-biryani.webp" alt="">
+                    <div class="content">
+                        <h3>Chicken Biriyani</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">Rs 299/-</div>
+                        <a href="#" class="btn co">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/eggroll.jpg" alt="">
+                    <div class="content">
+                        <h3>Egg-roll</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">Rs 55/-</div>
+                        <a href="#" class="btn co">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/vg.jpg" alt="">
+                    <div class="content">
+                        <h3>Veg Meal</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">Rs 100/-</div>
+                        <a href="#" class="btn co">check out</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/dosa.jpg" alt="">
+                    <div class="content">
+                        <h3>Dosa</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">Rs 120/-</div>
+                        <a href="#" class="btn co">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pizza.jpg" alt="">
+                    <div class="content">
+                        <h3>Pizza</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">Rs 399/-</div>
+                        <a href="#" class="btn co">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/panner.jpg" alt="">
+                    <div class="content">
+                        <h3>Panner Masala</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">Rs 165/-</div>
+                        <a href="#" class="btn co">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/Mutton-Shahi-Korma.jpg" alt="">
+                    <div class="content">
+                        <h3>Mutton Korma</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">Rs 439/-</div>
+                        <a href="" class="btn co">check out</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- review-section -->
+    <section class="reviews reveal" id="reviews">
+
+        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/cr1.png" alt="">
+                    <div class="content">
+                        <p>This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes,
+                            beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I
+                            would like to come back here again and again.</p>
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/cr2.png" alt="">
+                    <div class="content">
+                        <p>First time in (RN) and YOU have to go! It’s the cutest little spot with amazing food. The
+                            (FN) is to die for. IT WAS FIRE!! The service we received was so amazing and we will
+                            definitely be back again. They made us feel welcomed and gave us an amazing experience.</p>
+                        <h3>smithy bost</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/cr3.png" alt="">
+                    <div class="content">
+                        <p>This place is great! Atmosphere is chill and cool but the staff is also really friendly. They
+                            know what they’re doing and what they’re talking about, and you can tell making the
+                            customers happy is their main priority. Food is pretty good, some italian classics and some
+                            twists, and for their prices it’s 100% worth it.</p>
+                        <h3>robert gross</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/cr4.png" alt="">
+                    <div class="content">
+                        <p>Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely
+                            fine dining. It can be expensive but worth it and they do different deals on different
+                            nights so it’s worth checking them out before you book. Highly recommended.</p>
+                        <h3>ruby mark</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- contact-section -->
+    <section class="contact reveal" id="contact">
+
+        <h1 class="heading" style="color:#0096FF ;"><span>contact</span> us</h1>
+
+        <div class="row">
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8926935254212!2d87.33993514999999!3d23.5363616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f771cd3ab02c5f%3A0xb1961551d030ce6!2sFuljhore%2C%20Kaliganj%2C%20Durgapur%2C%20West%20Bengal%20713206!5e0!3m2!1sen!2sin!4v1657976991626!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <input type="text" placeholder="your name" class="box" required>
+                <input type="email" placeholder="your email" class="box" required>
+                <input type="tel" placeholder="subject" class="box" required>
+                <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn sbtbtn">
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- footer-section -->
+
+    <section class="footer reveal">
+        <div class="credit"></div>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <div class="share">
+                    <a href="#" class="btn fab fa-facebook-f"></a>
+                    <a href="#" class="btn fab fa-twitter"></a>
+                    <a href="#" class="btn fab fa-instagram"></a>
+                    <a href="#" class="btn fab fa-linkedin"></a>
+                </div>
+                <div class="links">
+                    <span href="#">+123-456-7890</span>
+                    <span href="#">example@gmail.com</span>
+                    <span href="#">durgapur, india - 713205</span>
+                    <img src="images/payment.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="box">
+                <h3>our branches</h3>
+                <div class="links">
+                    <span href="#">durgapur</span>
+                    <span href="#">kolkata</span>
+                    <span href="#">burdwan</span>
+                    <span href="#">asansol</span>
+                    <span href="#">bandel</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>timing</h3>
+                <div class="links">
+                    <span href="#">Monday 10am-9pm</span>
+                    <span href="#">Tuesday 10am-9pm</span>
+                    <span href="#">Wednesday 10am-9pm</span>
+                    <span href="#">Thursday 10am-9pm</span>
+                    <span href="#">Friday 10am-9pm</span>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <h1 class="developer">created by <span> Subhayu Dutta </span> | all rights reserved </h1>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
